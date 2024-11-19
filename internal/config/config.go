@@ -20,54 +20,6 @@ const (
 	PixelHeightFHD = 1080
 )
 
-// // ImageConfig defines the configuration used to render a single Mandelbrot image.
-// type ImageConfig struct {
-// 	EscapeThreshold float64 // The threshold value to determine if a point is in the Mandelbrot set
-// 	MaxIterations   int     // Maximum number of iterations to calculate the Mandelbrot value before assuming it is in the set
-// 	XCoordinateMin  float64 // The minimum x-coordinate value to calculate the Mandelbrot set
-// 	XCoordinateMax  float64 // The maximum x-coordinate value to calculate the Mandelbrot set
-// 	YCoordinateMin  float64 // The minimum y-coordinate value to calculate the Mandelbrot set
-// 	YCoordinateMax  float64 // The maximum y-coordinate value to calculate the Mandelbrot set
-// 	CanvasWidth     int     // Image width in pixels
-// 	CanvasHeight    int     // Image height in pixels
-// }
-
-// // DefaultImageConfig is an ImageConfig with default values for a full-view QHD Mandelbrot image
-// var DefaultImageConfig = ImageConfig{
-// 	EscapeThreshold: 4.0,
-// 	MaxIterations:   100,
-// 	XCoordinateMin:  -2.25,
-// 	XCoordinateMax:  0.75,
-// 	YCoordinateMin:  -1.1,
-// 	YCoordinateMax:  1.1,
-// 	CanvasWidth:     PixelWidthQHD,
-// 	CanvasHeight:    PixelHeightQHD,
-// }
-
-// // NewImageConfig creates a new ImageConfig with the specified values
-// func NewImageConfig(escapeThreshold float64,
-// 	maxIterations int,
-// 	xCoordinateMin float64,
-// 	xCoordinateMax float64,
-// 	yCoordinateMin float64,
-// 	yCoordinateMax float64,
-// 	imageCanvasWidth int,
-// 	imageCanvasHeight int) ImageConfig {
-
-// 	return ImageConfig{
-// 		EscapeThreshold: escapeThreshold,
-// 		MaxIterations:   maxIterations,
-// 		XCoordinateMin:  xCoordinateMin,
-// 		XCoordinateMax:  xCoordinateMax,
-// 		YCoordinateMin:  yCoordinateMin,
-// 		YCoordinateMax:  yCoordinateMax,
-// 		CanvasWidth:     imageCanvasWidth,
-// 		CanvasHeight:    imageCanvasHeight,
-// 	}
-// }
-
-// TODO - NEW !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
 type Configuration struct {
 	Mandelbrot MandelbrotConfiguration `yaml:"mandelbrot"`
 	Image      ImageConfiguration      `yaml:"image"`

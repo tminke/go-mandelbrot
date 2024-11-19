@@ -11,7 +11,7 @@ beauty and history of the Mandelbrot set, which inspired me to want to code it u
 "_If you can't explain it, you don't really understand it!_"
 
 Obviously Golang is not the first choice for such graphical pursuits, but it is currently the language I use on a daily basis,
-and does bring good performance and concurrency.  It seemed like a fun challenge to see what I could do with it ; ) 
+and does bring good performance and concurrency.  It seemed like a fun challenge to see what I could do with it.
 
 ## Usage
 
