@@ -1,0 +1,11 @@
+mandelbrot:
+  escapeThreshold: 4.0
+  maxIterations: 100
+  parallelism: 16
+image:
+  xCoordinateMin:  -2.25
+  xCoordinateMax:  0.75
+  yCoordinateMin:  -1.1
+  yCoordinateMax:  1.1
+  canvasWidth:     2560 # QHD
+  canvasHeight:    1440 # QHD
